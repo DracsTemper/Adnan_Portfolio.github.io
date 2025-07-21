@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #000;
+    color: #f0f0f0;
+    line-height: 1.6;
+    padding: 20px;
+    
+}
+.navbar{
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    
+}
+.logo{
+    display: flex;
+}
+.nav-links li{
+    padding-left: 20px;
+    list-style: none;
+    display: inline-block;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+}
+#full-line{
+    width: 100%;
+    border: none;
+    height: 1px;
+    background-color: #444;
+    margin: 0;
+}
+.container-intro{
+    padding-top: 20px;
+    display: flex;
+    padding: 100px; 
+    padding-top: 20px;
+}
+.container-intro p{
+    text-align: left;
+    padding-bottom: px;
+}
+
+#name{
+    font-size: 50px;
+}
+.info h3{
+    
+    color:#c6c6c6;
+}
+#lang{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.info a{
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(0, 140, 255);
+}
+.info i{
+    color:rgb(0, 140, 255);
+}
+.connect{
+    border: 0px;
+    color:rgb(0, 140, 255);
+    padding-top: 20px;
+}
+.connect tr td{
+    padding-right: 20px;
+}
+.img{
+    padding-top: 100px;
+    padding-left: 400px;
+}
+.img img{
+    height: 20rem;
+    height: 20rem;
+    border-radius:50%
+}
+
+.main-body{
+    padding-top: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#about h2{
+    font-size: 50px;
+}
+#about p{
+    text-align: left;
+    font-size: 18px;
+}
+#about a{
+    text-decoration: none;
+    color: rgb(0, 140, 255);
+}
+
+#skills h2{
+    font-size: 50px;
+}
+#skill-icon td{
+    padding-left: 20px;
+}
+#skill-icon img{
+    height: 50px;
+    width: 50px;
+}
+.highlight {
+    color: rgb(173, 171, 171);
+    background-color: #05273d;
+    padding: 2px 6px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 12px;
+}
+#work h2{
+    font-size: 50px;
+}
+.work-layout{
+    display: flex;
+    
+}
+.logo-side img{
+    height: 50px;
+    width: 50px;
+    padding-right: 50px;
+
+}
+.work-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.work-description h3{
+    margin: 0;
+    
+}
+.work-description p{
+    margin: 0;
+    font-size: 12px;
+}
+.footer-line{
+    text-align: center;
+
+}
+.footer-line img{
+    height: 30px;
+    width: 30px;
+}
+footer a{
+    text-align: left;
+}
+#scroolTotop{
+    font-size: 20px;
+    animation-name: appear;
+    animation-timeline: scroll(y);   
+}
+
+@keyframes appear {
+    0%{
+        opacity: 0;
+        display: none;
+        position: fixed
+    }
+    3%{
+        opacity: 0;
+        display: none;
+    }
+    3.5%{
+        opacity: 1;
+        display: block;
+    }
+    100%{
+        opacity: 1;
+        display: block;
+        position: fixed
+    }
+}
